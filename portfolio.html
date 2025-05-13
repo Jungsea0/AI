@@ -1,57 +1,36 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>과제 정리</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-    h2 {
-      color: #34495e;
-      margin-top: 30px;
-    }
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-    li strong {
-      color: #2c3e50;
-    }
-    code {
-      background-color: #f4f4f4;
-      padding: 2px 4px;
-      border-radius: 4px;
-    }
-  </style>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>과제 정리</h1>
+  <header>
+    <h1>PORTFOLIO</h1>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="portfolio.html" class="active">PORTFOLIO</a>
+      <a href="resume.html">RESUME</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </header>
+  <main>
+    <!-- 아래는 기존 포트폴리오 내용을 그대로 삽입하는 영역입니다 -->
+    <!-- 예시: -->
+    <section>
+      <h2>프로젝트 1: 스마트 계약 분석기</h2>
+      <p>블록체인 스마트 계약의 보안 취약점을 자동 분석하는 도구를 개발했습니다.</p>
+    </section>
 
-  <h2>3~4주차: 발표자료 자동 생성</h2>
-  <ul>
-    <li><strong>주제:</strong> 보고서 기반 발표자료 구성</li>
-    <li><strong>도구:</strong> Gamma / ChatGPT</li>
-    <li><strong>결과물:</strong> 슬라이드 PDF</li>
-    <li><strong>구성:</strong> 서론 – 본론 – 결론, Q&amp;A 포함</li>
-    <li><strong>제출형식:</strong> <code>projects/slides3.pdf</code></li>
-  </ul>
+    <section>
+      <h2>프로젝트 2: 법률 문서 요약기</h2>
+      <p>ChatGPT를 활용하여 판례 및 계약서를 요약해주는 노코드 기반 도구를 구현했습니다.</p>
+    </section>
 
-  <h2>5주차: 노코드 기반 데이터 분석</h2>
-  <ul>
-    <li><strong>주제:</strong> 노코드 기반 데이터 분석</li>
-    <li><strong>도구:</strong> ChatGPT, Colab</li>
-    <li><strong>설명:</strong> 고객 데이터를 시각화하고 보고서를 작성함</li>
-    <li><strong>결과물 링크:</strong> <code>projects/report5.pdf</code></li>
-  </ul>
+    <!-- 필요 시 더
 
-  <h2>6주차: 결과 보고서 작성</h2>
-  <ul>
     <li><strong>주제:</strong> 결과 보고서 작성</li>
     <li><strong>도구:</strong> ChatGPT</li>
     <li><strong>설명:</strong> 실무형 보고서 자동 생성</li>
